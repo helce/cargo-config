@@ -1,5 +1,4 @@
 [patch]
 
 [patch.crates-io]
-# I don't have enough new kernel and glibc to test later versions. But you can use them. Just set last tag instead.
-libc = { git = 'https://github.com/helce/libc', tag = '0.2.133' }
+libc = { git = 'https://github.com/helce/libc' }
