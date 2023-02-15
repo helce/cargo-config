@@ -6,3 +6,5 @@ cc = { git = 'https://github.com/helce/cc-rs' }
 ctest2 = { git = 'https://github.com/helce/ctest2' }
 compiletest_rs = { git = 'https://github.com/helce/compiletest-rs' }
 object = { git = 'https://github.com/helce/object' }
+stacker = { git = 'https://github.com/helce/stacker' }
+psm = { git = 'https://github.com/helce/stacker' }
