@@ -1,0 +1,21 @@
+# config to build rustc-1.60.0 from vendored sources
+
+# git clone --branch 1.60.0-e2k https://github.com/helce/rust.git
+# cd rust & git git submodule update --init
+# cargo vendor -s src/tools/rust-analyzer/Cargo.toml -s compiler/rustc_codegen_cranelift/Cargo.toml
+# RUST_BACKTRACE=1 DESTDIR=path/to/install  ./x.py install --config config.toml -v --on-fail env
+
+[patch]
+
+[patch.crates-io]
+
+libc112 = { package = 'libc', git = 'https://github.com/helce/libc', tag = '0.2.112' }
+libc116 = { package = 'libc', git = 'https://github.com/helce/libc', tag = '0.2.116' }
+libc117 = { package = 'libc', git = 'https://github.com/helce/libc', tag = '0.2.117' }
+compiletest_rs = { git = 'https://github.com/helce/compiletest-rs', tag = 'v0.7.1' }
+object262 = { package = 'object', git = 'https://github.com/helce/object', tag = '0.26.2' }
+object271 = { package = 'object', git = 'https://github.com/helce/object', tag = '0.27.1' }
+object281 = { package = 'object', git = 'https://github.com/helce/object', tag = '0.28.1' }
+object283 = { package = 'object', git = 'https://github.com/helce/object', tag = '0.28.3' }
+psm = { git = 'https://github.com/helce/stacker', tag = 'psm-0.1.16' }
+stacker = { git = 'https://github.com/helce/stacker', tag = 'psm-0.1.16' }
