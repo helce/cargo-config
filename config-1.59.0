@@ -1,7 +1,7 @@
 # config to build rustc-1.59.0 from vendored sources
 
 # git clone --branch 1.59.0-e2k https://github.com/helce/rust.git
-# cd rust & git git submodule update --init
+# cd rust && git submodule update --init
 # cargo vendor -s src/tools/rust-analyzer/Cargo.toml -s compiler/rustc_codegen_cranelift/Cargo.toml
 # RUST_BACKTRACE=1 DESTDIR=path/to/install  ./x.py install --config config.toml -v --on-fail env
 
