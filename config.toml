@@ -6,6 +6,7 @@ ctest2 = { git = 'https://github.com/helce/ctest2', branch = 'devel_e2k' }
 libc = { git = 'https://github.com/helce/libc', branch = 'devel_e2k' }
 linux-raw-sys = { git = 'https://github.com/helce/linux-raw-sys', branch = 'devel_e2k_0.4' }
 psm = { git = 'https://github.com/helce/stacker', branch = 'devel_e2k' }
+rustix = { git = 'https://github.com/helce/rustix', branch = 'devel_e2k' }
 stacker = { git = 'https://github.com/helce/stacker', branch = 'devel_e2k' }
 #cc = { git = 'https://github.com/helce/cc-rs' }
 #compiletest_rs = { git = 'https://github.com/helce/compiletest-rs' }
