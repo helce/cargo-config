@@ -3,6 +3,7 @@
 
 [patch.crates-io]
 cc = { git = 'https://github.com/helce/cc-rs', branch = 'devel_e2k' }
+compiletest_rs = { git = 'https://github.com/helce/compiletest-rs', branch = 'devel_e2k' }
 ctest2 = { git = 'https://github.com/helce/ctest2', branch = 'devel_e2k' }
 libc = { git = 'https://github.com/helce/libc', branch = 'devel_e2k' }
 libffi = { git = 'https://github.com/helce/libffi-rs', branch = 'devel_e2k' }
@@ -15,5 +16,4 @@ tikv-jemallocator = { path = 'https://github.com/helce/jemallocator', branch = '
 tikv-jemallocator-global = { path = 'https://github.com/helce/jemallocator', branch = 'devel_e2k' }
 tikv-jemalloc-ctl = { path = 'https://github.com/helce/jemallocator', branch = 'devel_e2k' }
 tikv-jemalloc-sys = { path = 'https://github.com/helce/jemallocator', branch = 'devel_e2k' }
-#compiletest_rs = { git = 'https://github.com/helce/compiletest-rs' }
 #object = { git = 'https://github.com/helce/object' }
