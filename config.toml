@@ -15,7 +15,7 @@ psm = { git = 'https://github.com/helce/stacker', branch = 'devel_e2k' }
 rustix = { git = 'https://github.com/helce/rustix', branch = 'devel_e2k' }
 stacker = { git = 'https://github.com/helce/stacker', branch = 'devel_e2k' }
 target-lexicon = { git = 'https://github.com/helce/target-lexicon', branch = 'devel_e2k' }
-tikv-jemallocator = { path = 'https://github.com/helce/jemallocator', branch = 'devel_e2k' }
-tikv-jemallocator-global = { path = 'https://github.com/helce/jemallocator', branch = 'devel_e2k' }
-tikv-jemalloc-ctl = { path = 'https://github.com/helce/jemallocator', branch = 'devel_e2k' }
-tikv-jemalloc-sys = { path = 'https://github.com/helce/jemallocator', branch = 'devel_e2k' }
+tikv-jemallocator = { git = 'https://github.com/helce/jemallocator', branch = 'devel_e2k' }
+tikv-jemallocator-global = { git = 'https://github.com/helce/jemallocator', branch = 'devel_e2k' }
+tikv-jemalloc-ctl = { git = 'https://github.com/helce/jemallocator', branch = 'devel_e2k' }
+tikv-jemalloc-sys = { git = 'https://github.com/helce/jemallocator', branch = 'devel_e2k' }
