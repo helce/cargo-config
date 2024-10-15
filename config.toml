@@ -8,6 +8,7 @@ cc = { git = 'https://github.com/helce/cc-rs', branch = 'devel_e2k' }
 cfg-expr = { git = 'https://github.com/helce/cfg-expr', branch = 'devel_e2k' }
 compiletest_rs = { git = 'https://github.com/helce/compiletest-rs', branch = 'devel_e2k' }
 ctest2 = { git = 'https://github.com/helce/ctest2', branch = 'devel_e2k' }
+ioctl-sys = { git = 'https://github.com/helce/ioctl', branch = 'devel_e2k' }
 libc = { git = 'https://github.com/helce/libc', branch = 'devel_e2k' }
 libffi = { git = 'https://github.com/helce/libffi-rs', branch = 'devel_e2k' }
 libffi-sys = { git = 'https://github.com/helce/libffi-rs', branch = 'devel_e2k' }
