@@ -16,6 +16,7 @@ libsqlite3-sys = { git = 'https://github.com/helce/rusqlite', branch = 'devel_e2
 linux-raw-sys = { git = 'https://github.com/helce/linux-raw-sys', branch = 'devel_e2k_0.4' }
 object = { git = 'https://github.com/helce/object', branch = 'devel_e2k' }
 psm = { git = 'https://github.com/helce/stacker', branch = 'devel_e2k' }
+ring = { git = 'https://github.com/helce/ring', branch = 'devel_e2k' }
 rustix = { git = 'https://github.com/helce/rustix', branch = 'devel_e2k' }
 stacker = { git = 'https://github.com/helce/stacker', branch = 'devel_e2k' }
 target-lexicon = { git = 'https://github.com/helce/target-lexicon', branch = 'devel_e2k' }
