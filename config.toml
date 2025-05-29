@@ -12,7 +12,6 @@ ioctl-sys = { git = 'https://github.com/helce/ioctl', branch = 'devel_e2k' }
 libc = { git = 'https://github.com/helce/libc', branch = 'devel_e2k' }
 libffi = { git = 'https://github.com/helce/libffi-rs', branch = 'devel_e2k' }
 libffi-sys = { git = 'https://github.com/helce/libffi-rs', branch = 'devel_e2k' }
-libsqlite3-sys = { git = 'https://github.com/helce/rusqlite', branch = 'devel_e2k' }
 linux-raw-sys = { git = 'https://github.com/helce/linux-raw-sys', branch = 'devel_e2k_0.4' }
 object = { git = 'https://github.com/helce/object', branch = 'devel_e2k' }
 openssl-src = { git = 'https://github.com/helce/openssl-src-rs', branch = 'devel_e2k_111' }
