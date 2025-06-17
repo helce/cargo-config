@@ -19,7 +19,8 @@ openssl-src_111 = { package = 'openssl-src', git = 'https://github.com/helce/ope
 openssl-src_300 = { package = 'openssl-src', git = 'https://github.com/helce/openssl-src-rs', branch = 'devel_e2k' }
 psm = { git = 'https://github.com/helce/stacker', branch = 'devel_e2k' }
 ring = { git = 'https://github.com/helce/ring', branch = 'devel_e2k' }
-rustix = { git = 'https://github.com/helce/rustix', branch = 'devel_e2k' }
+rustix_038 = { package = 'rustix', git = 'https://github.com/helce/rustix', branch = 'devel_e2k_0.38' }
+rustix_main = { package = 'rustix', git = 'https://github.com/helce/rustix', branch = 'devel_e2k' }
 stacker = { git = 'https://github.com/helce/stacker', branch = 'devel_e2k' }
 target-lexicon = { git = 'https://github.com/helce/target-lexicon', branch = 'devel_e2k' }
 tikv-jemallocator = { git = 'https://github.com/helce/jemallocator', branch = 'devel_e2k' }
