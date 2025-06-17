@@ -4,6 +4,7 @@
 [patch.crates-io]
 authenticator = { git = 'https://github.com/helce/authenticator-rs', branch = 'devel_e2k' }
 bindgen = { git = 'https://github.com/helce/rust-bindgen', branch = 'devel_e2k' }
+caps = { git = 'https://github.com/helce/caps-rs', branch = 'devel_e2k' }
 cc = { git = 'https://github.com/helce/cc-rs', branch = 'devel_e2k' }
 cfg-expr = { git = 'https://github.com/helce/cfg-expr', branch = 'devel_e2k' }
 compiletest_rs = { git = 'https://github.com/helce/compiletest-rs', branch = 'devel_e2k' }
