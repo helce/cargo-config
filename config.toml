@@ -18,6 +18,7 @@ linux-raw-sys_main = { package = 'linux-raw-sys', git = 'https://github.com/helc
 object = { git = 'https://github.com/helce/object', branch = 'devel_e2k' }
 openssl-src_111 = { package = 'openssl-src', git = 'https://github.com/helce/openssl-src-rs', branch = 'devel_e2k_111' }
 openssl-src_300 = { package = 'openssl-src', git = 'https://github.com/helce/openssl-src-rs', branch = 'devel_e2k' }
+platforms = { git = 'https://github.com/helce/rustsec', branch = 'devel_e2k' }
 psm = { git = 'https://github.com/helce/stacker', branch = 'devel_e2k' }
 ring = { git = 'https://github.com/helce/ring', branch = 'devel_e2k' }
 rustix_038 = { package = 'rustix', git = 'https://github.com/helce/rustix', branch = 'devel_e2k_0.38' }
