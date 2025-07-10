@@ -25,6 +25,4 @@ rustix_main = { package = 'rustix', git = 'https://github.com/helce/rustix', bra
 stacker = { git = 'https://github.com/helce/stacker', branch = 'devel_e2k' }
 target-lexicon = { git = 'https://github.com/helce/target-lexicon', branch = 'devel_e2k' }
 tikv-jemallocator = { git = 'https://github.com/helce/jemallocator', branch = 'devel_e2k' }
-tikv-jemallocator-global = { git = 'https://github.com/helce/jemallocator', branch = 'devel_e2k' }
-tikv-jemalloc-ctl = { git = 'https://github.com/helce/jemallocator', branch = 'devel_e2k' }
 tikv-jemalloc-sys = { git = 'https://github.com/helce/jemallocator', branch = 'devel_e2k' }
