@@ -17,6 +17,7 @@ libffi-sys = { git = 'https://github.com/helce/libffi-rs', branch = 'devel_e2k' 
 linux-raw-sys_04 = { package = 'linux-raw-sys', git = 'https://github.com/helce/linux-raw-sys', branch = 'devel_e2k_0.4' }
 linux-raw-sys_main = { package = 'linux-raw-sys', git = 'https://github.com/helce/linux-raw-sys', branch = 'devel_e2k' }
 minidump-common = { git = 'https://github.com/helce/rust-minidump', branch = 'devel_e2k' }
+nix = { git = 'https://github.com/helce/nix', branch = 'devel_e2k' }
 object = { git = 'https://github.com/helce/object', branch = 'devel_e2k' }
 openssl-src_111 = { package = 'openssl-src', git = 'https://github.com/helce/openssl-src-rs', branch = 'devel_e2k_111' }
 openssl-src_300 = { package = 'openssl-src', git = 'https://github.com/helce/openssl-src-rs', branch = 'devel_e2k' }
