@@ -5,6 +5,8 @@ authenticator = { git = 'https://github.com/helce/authenticator-rs', branch = 'd
 bindgen = { git = 'https://github.com/helce/rust-bindgen', branch = 'devel_e2k' }
 caps = { git = 'https://github.com/helce/caps-rs', branch = 'devel_e2k' }
 cc = { git = 'https://github.com/helce/cc-rs', branch = 'devel_e2k' }
+# fmt has no patches, but provide it here to avoid problems with cc-rs in dependencies of rustc
+find-msvc-tools = { git = 'https://github.com/helce/cc-rs', branch = 'devel_e2k' }
 cfg-expr = { git = 'https://github.com/helce/cfg-expr', branch = 'devel_e2k' }
 compiletest_rs = { git = 'https://github.com/helce/compiletest-rs', branch = 'devel_e2k' }
 crash-context = { git = 'https://github.com/helce/crash-handling', branch = 'devel_e2k' }
