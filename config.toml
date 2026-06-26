@@ -1,6 +1,7 @@
 [patch]
 
 [patch.crates-io]
+aws-lc-sys = { git = 'https://github.com/helce/aws-lc-rs', branch = 'devel_e2k' }
 authenticator = { git = 'https://github.com/helce/authenticator-rs', branch = 'devel_e2k' }
 bindgen = { git = 'https://github.com/helce/rust-bindgen', branch = 'devel_e2k' }
 caps = { git = 'https://github.com/helce/caps-rs', branch = 'devel_e2k' }
